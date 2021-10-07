@@ -8,6 +8,9 @@ public class Run {
         r.enqueue(3);
         r.dequeue();
         r.dequeue();
+        r.enqueue(4);
+        r.enqueue(9);
+        r.enqueue(1);
         r.show();
 
     }
